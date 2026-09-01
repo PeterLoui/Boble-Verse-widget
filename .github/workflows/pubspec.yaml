@@ -1,0 +1,31 @@
+name: bible_verse_widget
+description: تطبيق يعرض آية يومية عشوائية من الكتاب المقدس مع ويدجت شفاف على الشاشة الرئيسية.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # لتحديث ويدجت الشاشة الرئيسية على أندرويد
+  home_widget: ^0.6.0
+
+  # لتأثير الضبابية / الزجاج (Glassmorphism / Liquid Glass)
+  glassmorphism: ^3.0.0
+
+  # لتخزين آخر آية وتاريخ آخر تحديث محلياً
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/data/verses.json
