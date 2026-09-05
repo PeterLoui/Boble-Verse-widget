@@ -1,0 +1,11 @@
+{
+  "dart.flutterSdkPath": "/Users/mac/development/flutter",
+  "editor.formatOnSave": true,
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippet",
+    "editor.wordBasedSuggestions": "off"
+  }
+}
