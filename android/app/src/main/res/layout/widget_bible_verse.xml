@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/liquid_glass_bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:elevation="12dp">
+
+    <TextView
+        android:id="@+id/coptic_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 بؤونة 1741"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:alpha="0.9" />
+
+    <TextView
+        android:id="@+id/verse_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="تَوَكَّلْ عَلَى الرَّبِّ بِكُلِّ قَلْبِكَ - أمثال 3:5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/synaxarium_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تذكار: نياحة صموئيل النبي"
+        android:textColor="#E0FFFFFF"
+        android:textSize="11sp"
+        android:maxLines="1" />
+</LinearLayout>
